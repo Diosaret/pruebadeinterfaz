@@ -1,27 +1,24 @@
 @font-face{
 	font-family: "Adamina";
-src:url(../font/Adamina-Regular.ttf);
-
+    src:url(../font/Adamina-Regular.ttf);
 }
 
 @font-face{
 	font-family: "Montserrat";
-src:url(../font/Montserrat-Italic.ttf);
-
+    src:url(../font/Montserrat-Italic.ttf);
 }
 @font-face{
 	font-family: "Montserrat";
-src:url(../font/Montserrat-Bold.ttf);
-
+    src:url(../font/Montserrat-Bold.ttf);
 }
 body{
-font-family: 'Adamina', sans-serif;
-margin: 0;
-background: #001489;
+    font-family: 'Adamina', sans-serif;
+    margin: 0;
+    background: #001489;
 }
 
 *{
-	box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 h1,h2,h3,h4,h5,h6{
@@ -56,36 +53,58 @@ margin-left: 20px;
     margin-right: 20px;
 	margin-top: 30px;
 	margin-left: auto;
-	
 	cursor: pointer;
 
 }
 .icon-menu:hover{
 	background: white;
-	color:;
+	
 }
-
-
 .nav{
 	position: absolute;
-	top: 60px;
+	top: -30px;
 	left: -100%;
 	width: 100%;
 	transition: 0.4s;
 
 }
+
+.nav .inicio{
+
+padding-top: 100px;
+
+}
+.menu1{
+	color: #FFCD00;
+	background: #001489;
+	z-index: 2000;
+}
+
 .menu{
 	list-style: none;
 	padding: 0;
 	margin: 0;
 	margin-top: 30px;
-
-
 }
+
+
 .mostrar{
-	left: 0;
+	left: 0px;
 	z-index: 1000;
+
 }
+
+
+.title1{
+align-content: center;
+font-size: 35px;
+color:  #001489;
+margin-top: 35px;
+margin-left: 20px;
+z-index: 2500;
+}
+
+
 
 
 .menu__link{
@@ -95,7 +114,6 @@ background: #FFCD00;
 text-decoration: none;
 color:  #001489;
 margin-top: 1px;
-
 
 }
 
@@ -117,9 +135,7 @@ color:  #001489;
  	position: relative;
  	width: 90%;
  	margin-left: 28px;
- 	margin-bottom: 40px;
-
- 	
+ 	margin-bottom: 40px;	
  }
 
 .titulo1{
@@ -132,8 +148,6 @@ font-size: 25px;
 .tabla{
 text-align: center;
 border-collapse: collapse;
-
-
 }
 th,td{
 	padding: 15px;
@@ -214,8 +228,6 @@ label{
 	font-size: 16px;
 	font-weight: 600;
 	cursor: pointer;
-
-
 }
 select{
     width: 140px;
@@ -228,8 +240,6 @@ select{
 	font-size: 16px;
 	font-weight: 600;
 	cursor: pointer;
-
-
 }
 
  form.contact input[type="submit"]{
@@ -238,10 +248,8 @@ select{
 	padding: 10px;
 	border: none;
 	margin-left: 70px;
-
 	margin-top: 60px;
 	margin-bottom: 50px;
-
     color: #001489;
 	font-size: 16px;
 	font-weight: 600;
@@ -254,7 +262,7 @@ border-color: #ffcd00;
 border: 2px solid;
 
 }
-/*Estilos responsive*/
+/*----------Estilos responsive--------------*/
 
 @media(min-width:680px){
 
@@ -299,6 +307,11 @@ form.contact input[type="submit"]{
 
 .title{
 	font-size: 50px;
+}
+.nav .inicio{
+
+padding-top: 20px;
+
 }
 
 .nav{
